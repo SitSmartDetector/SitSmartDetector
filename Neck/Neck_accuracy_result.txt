@@ -1,0 +1,1 @@
+Accuracy of TFLite model: 1.0

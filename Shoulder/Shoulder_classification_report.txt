@@ -1,0 +1,10 @@
+Classification Report:
+                  precision    recall  f1-score   support
+
+Shoulder Hunched       1.00      1.00      1.00        55
+Shoulder Neutral       0.91      1.00      0.95        50
+  Shoulder Shrug       1.00      0.91      0.95        57
+
+        accuracy                           0.97       162
+       macro avg       0.97      0.97      0.97       162
+    weighted avg       0.97      0.97      0.97       162

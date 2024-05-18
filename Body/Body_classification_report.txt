@@ -1,0 +1,10 @@
+Classification Report:
+               precision    recall  f1-score   support
+
+Body Backward       0.83      1.00      0.90       118
+ Body Forward       1.00      1.00      1.00       113
+ Body Neutral       1.00      0.84      0.92       160
+
+     accuracy                           0.94       391
+    macro avg       0.94      0.95      0.94       391
+ weighted avg       0.95      0.94      0.94       391

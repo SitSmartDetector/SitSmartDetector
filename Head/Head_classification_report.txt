@@ -1,0 +1,10 @@
+Classification Report:
+                precision    recall  f1-score   support
+
+    Head Bowed       1.00      1.00      1.00        42
+  Head Neutral       1.00      0.98      0.99        50
+Head Tilt Back       0.96      1.00      0.98        25
+
+      accuracy                           0.99       117
+     macro avg       0.99      0.99      0.99       117
+  weighted avg       0.99      0.99      0.99       117

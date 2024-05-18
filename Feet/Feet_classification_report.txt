@@ -1,0 +1,9 @@
+Classification Report:
+                    precision    recall  f1-score   support
+
+Feet Ankle-on-knee       0.86      0.81      0.84       100
+         Feet Flat       0.82      0.87      0.84        99
+
+          accuracy                           0.84       199
+         macro avg       0.84      0.84      0.84       199
+      weighted avg       0.84      0.84      0.84       199
