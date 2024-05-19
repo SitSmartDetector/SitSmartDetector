@@ -15,11 +15,16 @@ import joblib
 app = FastAPI()
 
 # Load MLP models
-body_model = tf.keras.models.load_model('./Body/Body_weights.best.keras')
-feet_model = tf.keras.models.load_model('./Feet/Feet_weights.best.keras')
-head_model = tf.keras.models.load_model('./Head/Head_weights.best.keras')
-neck_model = tf.keras.models.load_model('./Neck/Neck_weights.best.keras')
-shoulder_model = tf.keras.models.load_model('./Shoulder/Shoulder_weights.best.keras')
+body_model = tf.keras.models.load_model('./Body/Body_weights.best.h5')
+feet_model = tf.keras.models.load_model('./Feet/Feet_weights.best.h5')
+head_model = tf.keras.models.load_model('./Head/Head_weights.best.h5')
+neck_model = tf.keras.models.load_model('./Neck/Neck_weights.best.h5')
+shoulder_model = tf.keras.models.load_model('./Shoulder/Shoulder_weights.best.h5')
+# body_model = tf.keras.models.load_model('./Body/Body_weights.best.keras')
+# feet_model = tf.keras.models.load_model('./Feet/Feet_weights.best.keras')
+# head_model = tf.keras.models.load_model('./Head/Head_weights.best.keras')
+# neck_model = tf.keras.models.load_model('./Neck/Neck_weights.best.keras')
+# shoulder_model = tf.keras.models.load_model('./Shoulder/Shoulder_weights.best.keras')
 yolo_model = YOLO('yolov8x.pt')
 logistic_regression_model = joblib.load('logistic_regression_model.pkl')
 
