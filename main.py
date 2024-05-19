@@ -44,6 +44,10 @@ async def predict_neck(input_tensor_reshaped):
 async def predict_shoulder(input_tensor_reshaped):
     return shoulder_model.predict(input_tensor_reshaped)
 
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
 @app.post("/predict_movenet/")
 async def predict_movenet(file: UploadFile = File(...)):
     # start_time = time.time()
